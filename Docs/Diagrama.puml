@@ -1,0 +1,21 @@
+@startuml newtonRaphson
+
+package 22110337-22110389{
+    class EquationSolver
+}
+
+class EquationSolver{
+
+    -equation_: string
+    -iterations_: int
+    -errorPercent_: double
+
+
+    - evaluate(expr: Expression, x: double):double
+    - derivative(expr: Expression):Expression 
+    - newtonRaphson(expr: Expression, initialGuess):double
+    + EquationSolver(equation: string, iterations: int, errorPercent: double)
+    + solve():double
+}
+
+@enduml
