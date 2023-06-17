@@ -1,8 +1,10 @@
 # newton-raphson-3F
 Solucionador de Ecuaciones
+
 Este programa es un solucionador de ecuaciones que utiliza el método de Newton-Raphson para encontrar soluciones aproximadas a una ecuación dada por el usuario.
 
 Requisitos del Sistema
+
 Compilador de C++ compatible con C++11 o superior.
 Biblioteca SymEngine (versión X o superior).
 Instalación y Configuración
@@ -10,7 +12,7 @@ Clona este repositorio en tu máquina local o descarga los archivos en un direct
 
 Asegúrate de que tienes instalado un compilador de C++ en tu sistema.
 
-Descarga la biblioteca SymEngine desde [sitio web] e instálala siguiendo las instrucciones proporcionadas en su documentación.
+Descarga la biblioteca SymEngine desde [(https://github.com/symengine/symengine)] e instálala siguiendo las instrucciones proporcionadas en su documentación.
 
 Configura tu entorno de desarrollo para que incluya las rutas de inclusión y las bibliotecas necesarias de SymEngine.
 
